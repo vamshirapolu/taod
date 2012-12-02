@@ -10,27 +10,28 @@ Scope for this project is to build the framework compatible with all web based a
 
 Total product development will be executed in three phases.
 Phase I
-•	Base Architecture for application including security, account creation, user, and role management.
-•	Focusing only web application testing.
-•	Integration through JavaScript.
-•	Track user navigation, record and play feature.
-•	Generate Test case which can be reviewed and edited.
-•	Feature Restriction based on role management.
-•	License Management.
+ï¿½	Base Architecture for application including security, account creation, user, and role management.
+ï¿½	Focusing only web application testing.
+ï¿½	Integration through JavaScript.
+ï¿½	Track user navigation, record and play feature.
+ï¿½	Generate Test case which can be reviewed and edited.
+ï¿½	Feature Restriction based on role management.
+ï¿½	License Management.
 Phase II
-•	Design use cases
-•	Provision to compile test plan
-•	Prepare or Generate Test Data
-•	Import and Export Test Data
-•	Develop automation testing and report generation.
-•	Integration with selenium framework.
-•	Download recorded navigations as script for selenium based on purchased license.
+ï¿½	Design use cases
+ï¿½	Provision to compile test plan
+ï¿½	Prepare or Generate Test Data
+ï¿½	Import and Export Test Data
+ï¿½	Develop automation testing and report generation.
+ï¿½	Integration with selenium framework.
+ï¿½	Download recorded navigations as script for selenium based on purchased license.
 Phase III
-•	Leverage captured information to generate performance testing scripts.
-•	Implement performance testing using jMeter.
-•	Download recorded navigations as script for jMeter based on purchased license.
-•	Analyze performance and produce reports.
+ï¿½	Leverage captured information to generate performance testing scripts.
+ï¿½	Implement performance testing using jMeter.
+ï¿½	Download recorded navigations as script for jMeter based on purchased license.
+ï¿½	Analyze performance and produce reports.
 
 
 Middleware
 Option to record, pause and stop 
+etc.
