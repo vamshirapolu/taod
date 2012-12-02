@@ -30,3 +30,7 @@ Phase III
 •	Implement performance testing using jMeter.
 •	Download recorded navigations as script for jMeter based on purchased license.
 •	Analyze performance and produce reports.
+
+
+Middleware
+Option to record, pause and stop 
