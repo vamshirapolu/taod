@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title> Home </title>
+		<meta name="Generator" content="EditPlus">
+		<meta name="Author" content="">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<link rel="stylesheet" href="css/styles.css">
+		 <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
+		<script src="js/jquery.js" async="" type="text/javascript"></script>
+		<script src="js/jquery-ui.js" async="" type="text/javascript"></script>
+		<script src="js/index.js" async="" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="wrap">
+			
+			<div id="login-panel">
+				<div id="login-form">
+					<ul class="form-flds-cont">
+						<li class="first"><input type="text" placeholder="Username or Email" value="" name="username" class="frm-fld frm-text uname"/></li>
+						<li><input type="password" placeholder="Password" value="" name="password" class="frm-pwd frm-fld"/></li>
+						<li class="last"><input type="button" value="Login" name="signin" class="btn blueBtn"/></li>
+					</ul>
+				</div>
+				<div id="login-tab">
+					<a href="#" id="signin-lnk" class="signin">Sign In</a>
+					<a href="#" id="signup-lnk">Sign Up</a>
+				</div>
+			</div>
+			<div id="header">
+				<div class="row">
+					<h1 id="logo"><a title="Home" href="/"><img alt="Home" src="imgs/logo.png"></a></h1>
+					<div id="top-menu">
+						<ul class="nav">
+						  <li class="active"><a title="Home" class="nav-icon nav-lnk" href="#"><span class="icon-home">Home</span></a></li>
+						  <li><a title="What We Do" href="#" class="nav-lnk">What We Do</a></li>
+						  <li><a title="Portfolio" href="#" class="nav-lnk">Portfolio</a></li>
+						  <li><a title="Features" href="#" class="nav-lnk">Features</a></li>
+						  <li><a title="About us" href="#" class="nav-lnk">About us</a></li>
+						  <li><a title="Contact us" href="#" class="nav-lnk">Contact us</a></li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+
+			<div id="content">
+				<div class="row">
+					<img src="./imgs/sample-bnr.jpg"/>
+				</div>
+				<div class="row">
+					<div id="testimonials-spc">
+						<h3>Testimonials/Some content</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					</div>
+					<div id="news-letter-spc">
+						<div class="subscribe">
+							<div class="subscribe-pitch">
+							  <h3>Subscribe</h3>
+							  <p>Subscribe to our newsletter to get the latest scoop right to your inbox.</p><p>
+							</p></div>
+							<form class="subscribe-form" method="post" action="index.html">
+								<input type="email" class="frm-text email frm-fld" name="email" value="" placeholder="Email address" style="width:230px;"/>
+								<input type="button" value="Ok" name="signin" class="btn blueBtn">
+							</form>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+
+
+
+			<div id="footer-links">
+				<div class="row">
+					<div class="column" id="tour">
+						<h5>Take the Tour</h5>
+						<ul>
+							<li><a href="#">Features</a></li>
+							<li><a href="#">Plans &amp; Pricing</a></li>
+							<li><a href="#">Demonstrations</a></li>
+							<li><a href="#">Free Trial</a></li>
+						</ul>
+					</div>
+					<div class="column" id="about">
+						<h5>About Us</h5>
+						<ul>
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">Our Story</a></li>
+							<li><a href="#">Our Blog</a></li>
+							<li><a href="#">Testimonials</a></li>
+							<li><a href="#">Follow Us</a></li>
+						</ul>
+					</div>
+					<div class="column" id="support">
+						<h5>Customer Support</h5>
+						<ul>
+							<li><a href="#">9052567589</a></li>
+							<li><a href="#">FAQs</a></li>
+							<li><a href="#">Forums</a></li>
+						</ul>
+					</div>
+					<div class="column" id="followup">
+						<h5>Connect with Us</h5>
+						<ul>
+							<li class="folo-icn twitter"><a href="#">Twitter</a><span>Follow us</span></li>
+							<li class="folo-icn fbook"><a href="#">Facebook</a><span>Ba a Fan</span></li>
+							<li class="folo-icn linkedin"><a href="#">LinkedIn</a><span>Join Our Group</span></li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div id="copy-cont">
+				<div class="row copy-text">&copy; 2012 trackpoint.com. All rights reserved.</div>
+			</div>
+		</div>
+		
+		<!-- Registration form-->
+		<div id="overlay"></div>
+		<div id="reg_popup">
+			<a href="javascript:void(0);" class="close-pop-x" id="close_reg"></a>
+			<h1 class="form-header">Sign up</h1>
+			<form autocomplete="on" action="/">
+				<ul class="form-flds-cont" id="reg_flds">
+					<li><input type="text" placeholder="Username" value="" name="reg_username" class="frm-fld frm-text uname"/></li>
+					<li><input type="text" placeholder="Email" value="" name="reg_username" class="frm-fld frm-text email"/></li>
+					<li><input type="password" placeholder="Password" value="" name="password" class="frm-pwd frm-fld"/></li>
+					<li><input type="password" placeholder="Confirn Password" value="" name="password" class="frm-pwd frm-fld"/></li>
+					<li class="last">
+						<input type="button" value="Sign Up" name="signup" class="btn blueBtn"/>
+						<input type="button" value="Cancel" name="cancel" class="btn grayBtn" id="cancel_reg"/>
+					</li>
+				</ul>
+			</form>
+		</div>
+		<!-- Registration form ends-->
+	</body>
+</html>
